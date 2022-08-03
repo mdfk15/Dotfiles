@@ -1,6 +1,7 @@
 # mdfk/dotfiles
 
 Desktop envirement configuration, scripts and projects
+
 ![Desktop Imge](images/setup.png)
 
 ## About 
