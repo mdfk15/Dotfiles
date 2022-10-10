@@ -14,5 +14,5 @@ Desktop envirement configuration, scripts and projects
 - Music system: [mpd daemon](https://github.com/MusicPlayerDaemon/MPD)
   - CLI controller: [mpc](https://github.com/MusicPlayerDaemon/mpc)
   - Media player: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) 
-File manager: PCManFM
-GTK theme: [arc-dark](https://github.com/jnsh/arc-theme)
+- File manager: PCManFM
+- GTK theme: [arc-dark](https://github.com/jnsh/arc-theme)
