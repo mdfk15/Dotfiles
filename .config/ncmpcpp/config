@@ -3,6 +3,5 @@ visualizer_output_name = "my_fifo"
 visualizer_in_stereo = "yes"
 visualizer_type = "spectrum"
 visualizer_look = "+|"
-mpd_music_dir = "/home/mdfk/registre/Musica/"
+mpd_music_dir = "/home/user/Musica/"
 allow_for_physical_item_deletion = yes
-execute_on_song_change = dunstify -i '~/.icons/musica.png' -u low -a "Reproduciendo" "$(mpc --format '%title% \n%artist%' current)" -h string:x-dunst-stack-tag:music

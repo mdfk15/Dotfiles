@@ -1,6 +1,0 @@
-#!/bin/sh
-
-picom &
-lxsession &
-keepassxc &
-feh --randomize --bg-fill ~/Picture/Fondos/ &

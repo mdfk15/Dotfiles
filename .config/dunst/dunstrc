@@ -14,7 +14,7 @@
     offset = 35x50
 
     progress_bar = true
-    progress_bar_height = 10
+    progress_bar_height = 12
     progress_bar_frame_width = 1
     progress_bar_min_width = 150
     progress_bar_max_width = 300
@@ -35,8 +35,9 @@
     separator_color = "#1e2137aa"
 
     # Set notification padding
-    padding = 12
-    horizontal_padding = 12
+    padding = 8
+    horizontal_padding = 8
+    text_icon_padding = 0
 
     # Disable frame (border)
     frame_width = 0
@@ -109,10 +110,10 @@
     icon_position = left
 
     # Scale small icons up to this size, set to 0 to disable.
-    min_icon_size = 60
+    min_icon_size = 80
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 60
+    max_icon_size = 85
 
     # Paths to default icons.
     icon_path = /home/mdfk/.icons/:/usr/share/icons/Adwaita/256x256/legacy/
@@ -166,20 +167,22 @@
     per_monitor_dpi = false
 
 [urgency_low]
-    background = "#1e2137fa"
-    highlight = "#fe6c5a"
-    frame_color = "#52426e"
-    
-    foreground = "#ffffff"
+    background = "#1a1b26f1"
+    highlight = "#FBC02D9a"
+#    highlight = "#fe6c5aaf"
+    frame_color = "#FFFFFF00"
+    foreground = "#989898"
     timeout = 8
 
 [urgency_normal]
-    background = "#1e2137fa"
+    background = "#1e2137f1"
     foreground = "#ffffffff"
+    highlight = "#FBC02Df0"
+    frame_color = "#FBC02D00"
     timeout = 8
 
 [urgency_critical]
-    background = "#dd130ddd"
+    background = "#ad030d98"
     foreground = "#ffffff"
     timeout = 0
     icon = abrt
